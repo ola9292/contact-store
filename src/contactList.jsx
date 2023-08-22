@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function ContactList({contact}){
     const navigate = useNavigate();
@@ -19,7 +19,8 @@ export default function ContactList({contact}){
                 <p>{contact.email}</p>
                 <p>{contact.phone}</p>
                 <div className="buttons">
-                    <button className="edit">Edit</button>
+                    <Link to={`/edit/${contact.id}`}><button className="edit">Edit</button></Link>
+                    
                     <button className="delete" onClick={()=>{handleDelete(contact.id)}}>Delete</button>
                 </div>
                 <div className="type">{contact.type}</div>

@@ -3,6 +3,7 @@ import './App.css'
 import Home from './Home'
 import Create from './Create'
 import Navbar from './Navbar'
+import Edit from './Edit'
 import { Routes, Route } from "react-router-dom"
 
 
@@ -16,7 +17,7 @@ function App() {
       <Routes>
           <Route path="/" element={ <Home/> } />
           <Route path="create" element={ <Create/> } />
-          {/* <Route path="contact" element={ <Contact/> } /> */}
+          <Route path="/edit/:id" element={ <Edit/> } />
         </Routes>
     </div>
     

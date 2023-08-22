@@ -1,18 +1,18 @@
 {
   "contacts": [
     {
-      "firstname": "olamide",
+      "firstname": "olamides",
       "lastname": "abass",
       "email": "okaz692@gmail.com",
+      "type": "Personal",
       "phone": "07654327612",
-      "id": 1,
-      "type": "personal"
+      "id": 1
     },
     {
       "firstname": "Dolapo",
       "lastname": "Abass",
       "email": "dollypop@gmail.com",
-      "type": "Professional",
+      "type": "Personal",
       "phone": "0987580723883",
       "id": 2
     },

@@ -7,7 +7,7 @@ export default function Navbar(){
             <Link to="/" style={{ textDecoration: 'none', color:'#fff' }}><h1>Contact Keeper</h1></Link>
            <ul className="nav-links">
            <Link to="/create" style={{ textDecoration: 'none', color:'#fff' }}>Create</Link>
-            <li>Edit</li>
+            {/* <li>Edit</li> */}
            </ul>
         </div>
     )
