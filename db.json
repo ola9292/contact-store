@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "firstname": "olamide",
+      "lastname": "abass",
+      "email": "okaz692@gmail.com",
+      "phone": "07654327612",
+      "id": 1,
+      "type": "personal"
+    },
+    {
+      "firstname": "Dolapo",
+      "lastname": "Abass",
+      "email": "dollypop@gmail.com",
+      "type": "Professional",
+      "phone": "0987580723883",
+      "id": 2
+    },
+    {
+      "firstname": "zahra",
+      "lastname": "abass",
+      "email": "zahra692@gmail.com",
+      "type": "Professional",
+      "phone": "+447495748045",
+      "id": 3
+    }
+  ]
+}
