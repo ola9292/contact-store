@@ -7,7 +7,9 @@
   padding: 20px;
   background-color: green;
   color: #fff;
+  
 }
+
 .nav-links{
   display: flex;
   justify-content: center;
